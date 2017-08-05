@@ -1,16 +1,16 @@
 <?php
 
-namespace Dpc\LaravelShopify\Providers;
+namespace ThemeAnorak\LaravelShopify\Providers;
 
 use Dpc\HashVerifier\AuthValidatorServiceProvider;
-use Dpc\LaravelShopify\Contracts\RequestClientContract;
-use Dpc\LaravelShopify\Contracts\ShopifyFactoryContract;
-use Dpc\LaravelShopify\Modules\RelationHandler;
-use Dpc\LaravelShopify\Modules\RelationHandlerContract;
-use Dpc\LaravelShopify\ShopifyFactory;
+use ThemeAnorak\LaravelShopify\Contracts\RequestClientContract;
+use ThemeAnorak\LaravelShopify\Contracts\ShopifyFactoryContract;
+use ThemeAnorak\LaravelShopify\Modules\RelationHandler;
+use ThemeAnorak\LaravelShopify\Modules\RelationHandlerContract;
+use ThemeAnorak\LaravelShopify\ShopifyFactory;
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
-use Dpc\LaravelShopify\Services\GuzzleClient;
+use ThemeAnorak\LaravelShopify\Services\GuzzleClient;
 
 class LaravelShopifyServiceProvider extends ServiceProvider
 {

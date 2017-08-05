@@ -1,8 +1,8 @@
 <?php
 
-namespace Dpc\LaravelShopify;
+namespace ThemeAnorak\LaravelShopify;
 
-use Dpc\LaravelShopify\Contracts\ShopifyFactoryContract;
+use ThemeAnorak\LaravelShopify\Contracts\ShopifyFactoryContract;
 
 class ShopifyFactory implements ShopifyFactoryContract
 {

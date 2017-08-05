@@ -1,6 +1,6 @@
 <?php
 
-namespace Dpc\LaravelShopify\Contracts;
+namespace ThemeAnorak\LaravelShopify\Contracts;
 
 
 interface ShopifyFactoryContract

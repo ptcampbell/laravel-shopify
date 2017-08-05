@@ -1,9 +1,9 @@
 <?php
 
-namespace Dpc\LaravelShopify\Services;
+namespace ThemeAnorak\LaravelShopify\Services;
 
 use GuzzleHttp\Client;
-use Dpc\LaravelShopify\Contracts\RequestClientContract;
+use ThemeAnorak\LaravelShopify\Contracts\RequestClientContract;
 
 class GuzzleClient implements RequestClientContract
 {

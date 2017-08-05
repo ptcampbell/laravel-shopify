@@ -1,9 +1,8 @@
 <?php
 
-namespace Dpc\LaravelShopify\Modules;
+namespace ThemeAnorak\LaravelShopify\Modules;
 
 
-use Dpc\LaravelShopify\Client;
 
 class Variant extends BaseModule
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dpc\LaravelShopify\Modules;
+namespace ThemeAnorak\LaravelShopify\Modules;
 
-use Dpc\LaravelShopify\Client;
+use ThemeAnorak\LaravelShopify\Client;
 
 abstract class BaseModule
 {

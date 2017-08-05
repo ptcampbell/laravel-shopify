@@ -1,6 +1,6 @@
 <?php
 
-namespace Dpc\LaravelShopify;
+namespace ThemeAnorak\LaravelShopify;
 
 class Client
 {

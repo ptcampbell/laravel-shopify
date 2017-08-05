@@ -1,6 +1,6 @@
 <?php
 
-namespace Dpc\LaravelShopify\Exceptions;
+namespace ThemeAnorak\LaravelShopify\Exceptions;
 
 
 class InvalidHostException extends \Exception

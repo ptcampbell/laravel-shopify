@@ -1,6 +1,6 @@
 <?php
 
-namespace Dpc\LaravelShopify\Modules;
+namespace ThemeAnorak\LaravelShopify\Modules;
 
 class Product extends BaseModule
 {

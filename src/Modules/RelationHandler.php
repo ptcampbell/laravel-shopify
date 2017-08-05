@@ -6,11 +6,11 @@
  * Time: 6:36 PM
  */
 
-namespace Dpc\LaravelShopify\Modules;
+namespace ThemeAnorak\LaravelShopify\Modules;
 
 
-use Dpc\LaravelShopify\Client;
-use Dpc\LaravelShopify\ShopifyFactory;
+use ThemeAnorak\LaravelShopify\Client;
+use ThemeAnorak\LaravelShopify\ShopifyFactory;
 
 class RelationHandler implements RelationHandlerContract
 {

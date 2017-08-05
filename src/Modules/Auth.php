@@ -1,13 +1,13 @@
 <?php
 
-namespace Dpc\LaravelShopify\Modules;
+namespace ThemeAnorak\LaravelShopify\Modules;
 
 
-use Dpc\LaravelShopify\Client;
+use ThemeAnorak\LaravelShopify\Client;
 use Dpc\HashVerifier\AuthValidatorContract;
-use Dpc\LaravelShopify\Exceptions\HashFailedException;
-use Dpc\LaravelShopify\Exceptions\InvalidHostException;
-use Dpc\LaravelShopify\Exceptions\NonceFailedException;
+use ThemeAnorak\LaravelShopify\Exceptions\HashFailedException;
+use ThemeAnorak\LaravelShopify\Exceptions\InvalidHostException;
+use ThemeAnorak\LaravelShopify\Exceptions\NonceFailedException;
 
 class Auth
 {

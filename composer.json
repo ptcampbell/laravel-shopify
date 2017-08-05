@@ -1,5 +1,5 @@
 {
-    "name": "dpc/laravel-shopify",
+    "name": "theme-anorak/laravel-shopify",
     "description": "Api Wrapper for using Shopify in a Laravel application",
     "type": "library",
     "license": "MIT",
@@ -11,12 +11,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Dpc\\LaravelShopify\\": "src"
+            "ThemeAnorak\\LaravelShopify\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dpc\\LaravelShopify\\Tests\\": "tests"
+            "ThemeAnorak\\LaravelShopify\\Tests\\": "tests"
         }
     }
 
