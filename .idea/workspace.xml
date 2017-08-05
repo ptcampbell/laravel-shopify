@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0bc8247-3a12-42ef-82e4-ddf8a90b1695" name="Default" comment="helper removed from">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/FactoryHelper.php" afterPath="" />
+    <list default="true" id="d0bc8247-3a12-42ef-82e4-ddf8a90b1695" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -192,11 +191,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501961863448</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="helper removed from tests">
+      <created>1501961912520</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1501961912520</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267000" />
+    <option name="totallyTimeSpent" value="285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
@@ -252,7 +258,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="crap removed from tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="crap removed from tests" />
+    <MESSAGE value="helper removed from tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="helper removed from tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
