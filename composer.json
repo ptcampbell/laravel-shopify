@@ -1,0 +1,23 @@
+{
+    "name": "dpc/laravel-shopify",
+    "description": "Api Wrapper for using Shopify in a Laravel application",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "dpc/hash-verifier": "dev-master"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Dpc\\LaravelShopify\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dpc\\LaravelShopify\\Tests\\": "tests"
+        }
+    }
+
+}
