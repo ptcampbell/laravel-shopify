@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0bc8247-3a12-42ef-82e4-ddf8a90b1695" name="Default" comment="matches function went awol, brought it back.. &#10;functions added to contract&#10;styling fixed for SP">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../hash-verifier/.idea/hash-verificator.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/blade.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/shopify.iml" afterPath="$PROJECT_DIR$/.idea/shopify.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,10 +17,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" phpInterpreterId="1174a24d-0572-47fa-a288-ea25feeee097">
-    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="BaseModule.php" pinned="false" current-in-tab="false">
@@ -30,7 +32,7 @@
       <file leaf-file-name="RelationHandler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Modules/RelationHandler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
+            <state relative-caret-position="684">
               <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="e#125#155#0#PHP" expanded="true" />
@@ -94,28 +96,28 @@
       <file leaf-file-name="BaseModule.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/src/Modules/BaseModule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+            <state relative-caret-position="1206">
+              <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitattributes">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,118 +125,13 @@
       </file>
     </leaf>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>params</find>
-      <find>makeWith</find>
-      <find>d</find>
-      <find>dump</find>
-      <find>dump(</find>
-      <find>dd</find>
-      <find>dd(</find>
-      <find>base_uri</find>
-      <find>prepend</find>
-      <find>url</find>
-      <find>url(</find>
-      <find>query</find>
-      <find>getBod</find>
-      <find>getC</find>
-      <find>getReu</find>
-      <find>macro</find>
-      <find>first</find>
-      <find>Psr7</find>
-      <find>getContent</find>
-      <find>toarray</find>
-      <find>toArray</find>
-      <find>to</find>
-      <find>filters(</find>
-      <find>f</find>
-      <find>filters</find>
-      <find>pivot</find>
-      <find>option</find>
-      <find>sho</find>
-      <find>belongs</find>
-      <find>getKeyName()</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>Dpc\</replace>
-      <replace>Dpc\AuthValidator</replace>
-      <replace>Dpc\HashVerifier</replace>
-      <replace>Dpc\HashVerificator</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/../hash-verificator/config</dir>
-      <dir>$PROJECT_DIR$/../hash-verificator</dir>
-      <dir>$PROJECT_DIR$/../hash-verifier</dir>
-      <dir>$PROJECT_DIR$/src/Modules</dir>
-      <dir>$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify</dir>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../hash-verifier" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/../framework" value="policy-check" />
-      </map>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Exceptions/NonceFailedException.php" />
-        <option value="$PROJECT_DIR$/src/Exceptions/InvalidHostException.php" />
-        <option value="$PROJECT_DIR$/src/Exceptions/HashFailedException.php" />
-        <option value="$PROJECT_DIR$/../hash-verifier/src/AuthValidator.php" />
-        <option value="$PROJECT_DIR$/tests/AuthValidatorTest.php" />
-        <option value="$PROJECT_DIR$/tests/ModelStub.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/hash-verifier/src/AuthValidator.php" />
-        <option value="$PROJECT_DIR$/../package-tester/database/migrations/2014_10_12_000000_create_users_table.php" />
-        <option value="$PROJECT_DIR$/../package-tester/database/factories/ModelFactory.php" />
-        <option value="$PROJECT_DIR$/../hash-verifier/src/NonceGenerator.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/tests/AuthValidatorTest.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/vendor/dpc/hash-verifier/src/AuthValidator.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/vendor/dpc/hash-verifier/src/NonceGenerator.php" />
-        <option value="$PROJECT_DIR$/../hash-verifier/config/validator.php" />
-        <option value="$PROJECT_DIR$/../package-tester/config/validator.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/hash-verifier/src/NonceGenerator.php" />
-        <option value="$PROJECT_DIR$/../package-tester/app/User.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/vendor/dpc/hash-verifier/src/HMacValidator.php" />
-        <option value="$PROJECT_DIR$/../hash-verifier/src/HMacValidator.php" />
-        <option value="$PROJECT_DIR$/../package-tester/config/auth.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/BaseMatcher.php" />
-        <option value="$PROJECT_DIR$/src/Client.php" />
-        <option value="$PROJECT_DIR$/src/Modules/Auth.php" />
-        <option value="$PROJECT_DIR$/src/Services/GuzzleClient.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/laravel/framework/src/Illuminate/Container/Container.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/src/Providers/LaravelShopifyServiceProvider.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/hash-verifier/src/HMacValidator.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/guzzlehttp/guzzle/src/Client.php" />
-        <option value="$PROJECT_DIR$/src/Contracts/RequestClientContract.php" />
-        <option value="$PROJECT_DIR$/../package-tester/.env" />
-        <option value="$PROJECT_DIR$/../package-tester/tests/Feature/AuthTest.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/src/Services/GuzzleClient.php" />
-        <option value="$PROJECT_DIR$/src/Contracts/CollectionContract.php" />
-        <option value="$PROJECT_DIR$/src/Collection.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/src/RequestFactory.php" />
-        <option value="$PROJECT_DIR$/src/RequestFactory.php" />
-        <option value="$PROJECT_DIR$/src/Modules/Product.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
-        <option value="$PROJECT_DIR$/src/Providers/LaravelShopifyServiceProvider.php" />
-        <option value="$PROJECT_DIR$/src/Contracts/RelationHandlerContract.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/src/Modules/RelationHandler.php" />
-        <option value="$PROJECT_DIR$/src/Modules/Variant.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.txt" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/src/Modules/Product.php" />
-        <option value="$PROJECT_DIR$/src/Modules/RelationHandler.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/src/Modules/BaseModule.php" />
-        <option value="$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/src/Modules/Variant.php" />
-        <option value="$PROJECT_DIR$/src/Modules/BaseModule.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitattributes" />
       </list>
     </option>
   </component>
@@ -244,42 +141,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/../fbk/node_modules" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7">
-    <include_path>
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
-      <path value="$PROJECT_DIR$/vendor/paragonie/sodium_compat" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
-      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
-      <path value="$PROJECT_DIR$/vendor/dpc/hash-verifier" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
-    </include_path>
-  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-11" />
-    <option name="width" value="1368" />
-    <option name="height" value="780" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>AngularJS</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="y" value="-4" />
+    <option name="width" value="1366" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -297,52 +163,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="package-tester" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="package-tester" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="package-tester" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Feature" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="shopify" />
@@ -359,24 +183,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../http-status-check" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/../package-tester/.env" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Contracts" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/../AuthValidator/src" />
-      <recent name="$PROJECT_DIR$/../AuthValidator" />
-      <recent name="$PROJECT_DIR$/tests" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/../AuthValidator/src" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -390,226 +197,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="debugOptions">
-        <ErlangDebugOptions>
-          <option name="autoUpdateModulesNotToInterpret" value="true" />
-          <option name="modulesNotToInterpret">
-            <set />
-          </option>
-        </ErlangDebugOptions>
-      </option>
-      <option name="erlFlags" value="" />
-      <option name="moduleAndFunction" value="" />
-      <option name="params" value="" />
-      <option name="useTestCodePath" value="false" />
-      <option name="workDirectory" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="debugOptions">
-        <ErlangDebugOptions>
-          <option name="autoUpdateModulesNotToInterpret" value="true" />
-          <option name="modulesNotToInterpret">
-            <set />
-          </option>
-        </ErlangDebugOptions>
-      </option>
-      <option name="workDirectory" />
-      <module />
-      <option name="functionNames">
-        <set />
-      </option>
-      <option name="kind" value="MODULE" />
-      <option name="moduleNames">
-        <set />
-      </option>
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="command" value="eunit" />
-      <option name="skipDependencies" value="true" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d0bc8247-3a12-42ef-82e4-ddf8a90b1695" name="Default" comment="" />
-      <created>1498808267079</created>
+      <changelist id="d0bc8247-3a12-42ef-82e4-ddf8a90b1695" name="Default" comment="matches function went awol, brought it back.. &#10;functions added to contract&#10;styling fixed for SP" />
+      <created>1501961274428</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1498808267079</updated>
-      <workItem from="1498808271965" duration="14110000" />
-      <workItem from="1498836636962" duration="2543000" />
-      <workItem from="1498887469190" duration="4339000" />
-      <workItem from="1498893029579" duration="10429000" />
-      <workItem from="1498908896843" duration="3256000" />
-      <workItem from="1498913458024" duration="1821000" />
-      <workItem from="1498917248585" duration="8807000" />
-      <workItem from="1498975739528" duration="15413000" />
-      <workItem from="1499007534472" duration="38000" />
-      <workItem from="1499007700610" duration="6618000" />
-      <workItem from="1499057397149" duration="27103000" />
-      <workItem from="1499144988149" duration="19333000" />
-      <workItem from="1499181658336" duration="5875000" />
-      <workItem from="1499231831301" duration="34297000" />
-      <workItem from="1499316149011" duration="12300000" />
-      <workItem from="1499333449779" duration="22286000" />
-      <workItem from="1499403303280" duration="18327000" />
-      <workItem from="1499435073482" duration="1952000" />
-      <workItem from="1499438212633" duration="7719000" />
-      <workItem from="1499489273587" duration="22433000" />
-      <workItem from="1499588005052" duration="1665000" />
-      <workItem from="1499597240105" duration="1186000" />
-      <workItem from="1499598599571" duration="17631000" />
-      <workItem from="1499664230004" duration="31318000" />
-      <workItem from="1499750949406" duration="11444000" />
-      <workItem from="1499865916267" duration="7397000" />
-      <workItem from="1499924933841" duration="12821000" />
-      <workItem from="1500010402165" duration="19785000" />
-      <workItem from="1500045514764" duration="5253000" />
-      <workItem from="1500096453367" duration="5240000" />
-      <workItem from="1500109699161" duration="8432000" />
-      <workItem from="1500280647595" duration="26921000" />
-      <workItem from="1500356116911" duration="13894000" />
-      <workItem from="1500383066396" duration="12085000" />
-      <workItem from="1500442273833" duration="4207000" />
-      <workItem from="1500465986062" duration="4000" />
-      <workItem from="1500470555482" duration="3633000" />
-      <workItem from="1500483249511" duration="951000" />
-      <workItem from="1500487589294" duration="972000" />
-      <workItem from="1500530729385" duration="32315000" />
-      <workItem from="1500614107476" duration="5013000" />
-      <workItem from="1500625839530" duration="13620000" />
-      <workItem from="1500659791746" duration="555000" />
-      <workItem from="1500661349487" duration="604000" />
-      <workItem from="1500700886987" duration="704000" />
-      <workItem from="1500724223458" duration="14630000" />
-      <workItem from="1500792918991" duration="2092000" />
-      <workItem from="1500812133552" duration="4114000" />
-      <workItem from="1500830355562" duration="3585000" />
-      <workItem from="1500873863837" duration="27175000" />
-      <workItem from="1500961846390" duration="4393000" />
-      <workItem from="1500973136088" duration="2870000" />
-      <workItem from="1501054065940" duration="8111000" />
-      <workItem from="1501136963611" duration="28000" />
-      <workItem from="1501149138285" duration="2610000" />
-      <workItem from="1501158475113" duration="6799000" />
-      <workItem from="1501169112470" duration="2267000" />
-      <workItem from="1501177271554" duration="2071000" />
-      <workItem from="1501220448630" duration="5014000" />
-      <workItem from="1501311091389" duration="8252000" />
-      <workItem from="1501337913983" duration="9238000" />
-      <workItem from="1501404600208" duration="3460000" />
-      <workItem from="1501416049488" duration="4647000" />
-      <workItem from="1501436271234" duration="2869000" />
-      <workItem from="1501476089794" duration="362000" />
-      <workItem from="1501483008169" duration="166000" />
-      <workItem from="1501483412614" duration="2546000" />
-      <workItem from="1501487676081" duration="17194000" />
-      <workItem from="1501565554190" duration="291000" />
-      <workItem from="1501567416656" duration="29558000" />
-      <workItem from="1501652001513" duration="3119000" />
-      <workItem from="1501666718201" duration="16288000" />
-      <workItem from="1501694903978" duration="2055000" />
-      <workItem from="1501699147094" duration="1624000" />
-      <workItem from="1501739511245" duration="10236000" />
-      <workItem from="1501825295028" duration="12692000" />
-      <workItem from="1501852825579" duration="5333000" />
-      <workItem from="1501867636961" duration="4729000" />
-      <workItem from="1501917233090" duration="17952000" />
+      <updated>1501961274428</updated>
+      <workItem from="1501961276360" duration="177000" />
     </task>
-    <task id="LOCAL-00002" summary="matches function went awol, brought it back.. &#10;functions added to contract&#10;styling fixed for SP">
-      <created>1500291649412</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1500291649412</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="715019000" />
+    <option name="totallyTimeSpent" value="197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -659,10 +265,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="matches function went awol, brought it back.. &#10;functions added to contract&#10;styling fixed for SP" />
-    <option name="LAST_COMMIT_MESSAGE" value="matches function went awol, brought it back.. &#10;functions added to contract&#10;styling fixed for SP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -922,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="40" column="66" lean-forward="false" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,7 +597,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Modules/RelationHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
+        <state relative-caret-position="684">
           <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="e#125#155#0#PHP" expanded="true" />
@@ -1014,16 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../package-tester/vendor/dpc/laravel-shopify/src/Modules/BaseModule.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="1206">
+          <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1031,7 +624,15 @@
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
