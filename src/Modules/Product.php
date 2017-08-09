@@ -4,8 +4,6 @@ namespace ThemeAnorak\LaravelShopify\Modules;
 
 class Product extends BaseModule
 {
-    protected $params;
-
     public function since(int $id): Product
     {
         $this->params['sinceId'] = $id;
@@ -30,8 +28,4 @@ class Product extends BaseModule
         return url($url, $this->params);
     }
 
-    public function show(int $id)
-    {
-        // TODO: Implement show() method.
-    }
 }

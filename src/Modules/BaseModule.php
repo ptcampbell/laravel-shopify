@@ -12,6 +12,8 @@ abstract class BaseModule
 
     protected $parentId;
 
+    protected $params;
+
     /**
      * BaseModule constructor.
      * @param $client
@@ -41,6 +43,7 @@ abstract class BaseModule
         if ($results) {
             $results['related'] = $this->relationHandler->loadRelations($results);
         }
+        return $results;
     }
 
     public function create(array $product)
@@ -63,6 +66,11 @@ abstract class BaseModule
     {
         $this->parentId = $id;
         return $this;
+    }
+
+    public function delete($id)
+    {
+        return $this->client->getRequest()->delete($this->prepareUri());
     }
 
 }
