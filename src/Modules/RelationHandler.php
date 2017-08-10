@@ -8,8 +8,6 @@
 
 namespace ThemeAnorak\LaravelShopify\Modules;
 
-
-use ThemeAnorak\LaravelShopify\Client;
 use ThemeAnorak\LaravelShopify\ShopifyFactory;
 
 class RelationHandler implements RelationHandlerContract
