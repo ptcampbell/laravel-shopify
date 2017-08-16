@@ -10,7 +10,7 @@ abstract class BaseModule
 
     protected $relationHandler;
 
-    protected $parentId;
+    protected $parent;
 
     protected $params;
 
@@ -62,15 +62,15 @@ abstract class BaseModule
         return $this;
     }
 
-    public function belongsTo($id): BaseModule
+    public function belongsTo(array $parent): BaseModule
     {
-        $this->parentId = $id;
+        $this->parent = $parent;
         return $this;
     }
 
-    public function delete($id)
+    public function delete(int $id)
     {
-        return $this->client->getRequest()->delete($this->prepareUri());
+        return $this->client->getRequest()->delete($this->prepareUri("#$id.json"));
     }
 
 }

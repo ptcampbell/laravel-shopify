@@ -31,15 +31,14 @@ class RelationHandler implements RelationHandlerContract
         return !empty($this->relations);
     }
 
-    public function loadRelations(array $results)
+    public function loadRelations(array $results): array
     {
         $related = [];
         foreach ($this->relations as $relation => $type) {
-            if ($type === 'count') {
-                $related[$relation] = $this->factory->$relation->belongsTo(data_get($results, 'id'))->count();
-            } else {
-                $related[$relation] = $this->factory->$relation->belongsTo(data_get($results, 'id'))->get();
-            }
+            $belongsTo = $this->factory->$relation->belongsTo([
+                $relation => data_get($results, 'id')
+            ]);
+            $related[$relation] = $type === 'count' ? $belongsTo->count() : $belongsTo->get();
         }
         return $related;
     }

@@ -2,8 +2,8 @@
 
 namespace ThemeAnorak\LaravelShopify;
 
-use ThemeAnorak\LaravelShopify\Contracts\RequestClientContract;
 use GuzzleHttp\Exception\RequestException;
+use Dpc\GuzzleClient\RequestClientContract;
 
 class RequestFactory
 {
