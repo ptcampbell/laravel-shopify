@@ -3,10 +3,9 @@
 namespace ThemeAnorak\LaravelShopify\Modules;
 
 
-
-class Variant extends BaseModule
+class Image extends BaseModule
 {
-    protected function prepareUri(string $uri = 'variants.json'): string
+    protected function prepareUri(string $uri = 'images.json'): string
     {
         if ($this->parent) {
             return url("products/#$this->parent/$uri", $this->params);
@@ -14,5 +13,4 @@ class Variant extends BaseModule
 
         return url('variants/' . $uri, $this->params);
     }
-
 }
