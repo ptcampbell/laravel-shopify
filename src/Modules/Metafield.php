@@ -3,19 +3,23 @@
 namespace ThemeAnorak\LaravelShopify\Modules;
 
 
-use ThemeAnorak\LaravelShopify\Exceptions\ParentResourceNotSpecifiedException;
-
 class Metafield extends BaseModule
 {
 
     protected function prepareUri(string $uri = ''): string
     {
-        if (! $this->parent) {
-            throw new ParentResourceNotSpecifiedException();
+        if ($uri) {
+            $url = $this->parent ? key($this->parent) : "metafields/$uri";
+        } else {
+            $url = 'metafields.json';
         }
 
-
-        $url = $uri ? key($this->parent) . $uri : 'products.json';
         return url($url, $this->params);
+    }
+
+    public function since(int $id): Metafield
+    {
+        $this->params['sinceId'] = $id;
+        return $this;
     }
 }
