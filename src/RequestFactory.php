@@ -33,7 +33,7 @@ class RequestFactory
         $uri = '/admin/' . $uri;
 
         try {
-            $response = $this->request->send($method, $uri, $data);
+            $response = $this->request->send($method, $uri, $data)->json();
         } catch (RequestException $requestException) {
             $response = $requestException->getMessage();
         }

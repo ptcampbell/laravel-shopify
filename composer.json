@@ -5,7 +5,7 @@
     "license": "MIT",
     "require": {
         "dpc/hash-verifier": "dev-master",
-        "dpc/guzzle-client": "dev-master"
+        "dpc/guzzle-client": "^0.3.0"
     },
     "require-dev": {
     },
@@ -19,6 +19,14 @@
             "ThemeAnorak\\LaravelShopify\\Tests\\": "tests"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ThemeAnorak\\LaravelShopify\\Providers\\LaravelShopifyServiceProvider"
+            ]
+        }
+    },
+
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
