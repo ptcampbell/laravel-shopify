@@ -8,6 +8,7 @@ use Dpc\HashVerifier\AuthValidatorServiceProvider;
 use ThemeAnorak\LaravelShopify\Contracts\ShopifyFactoryContract;
 use ThemeAnorak\LaravelShopify\Modules\RelationHandler;
 use ThemeAnorak\LaravelShopify\Modules\RelationHandlerContract;
+use ThemeAnorak\LaravelShopify\ShopifyFactory;
 
 class LaravelShopifyServiceProvider extends ServiceProvider
 {
