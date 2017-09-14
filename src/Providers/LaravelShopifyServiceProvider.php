@@ -5,6 +5,7 @@ namespace ThemeAnorak\LaravelShopify\Providers;
 use Illuminate\Support\ServiceProvider;
 use Dpc\GuzzleClient\GuzzleClientServiceProvider;
 use Dpc\HashVerifier\AuthValidatorServiceProvider;
+use ThemeAnorak\LaravelShopify\Contracts\ShopifyFactoryContract;
 use ThemeAnorak\LaravelShopify\Modules\RelationHandler;
 use ThemeAnorak\LaravelShopify\Modules\RelationHandlerContract;
 
@@ -28,5 +29,6 @@ class LaravelShopifyServiceProvider extends ServiceProvider
         $this->app->register(AuthValidatorServiceProvider::class);
         $this->app->register(GuzzleClientServiceProvider::class);
         $this->app->bind(RelationHandlerContract::class, RelationHandler::class);
+        $this->app->bind(ShopifyFactoryContract::class, ShopifyFactory::class);
     }
 }
