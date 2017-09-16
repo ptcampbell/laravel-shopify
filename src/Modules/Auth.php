@@ -37,11 +37,11 @@ class Auth
     {
         $domain = $this->client->getDomain();
         return "$domain/admin/oauth/authorize?" . http_build_query([
-              'api_key' => $this->client->getKey(),
-               'scopes' => config('shopify.scopes', ''),
-                'redirect_url' => config('shopify.redirect_uri', ''),
-                'nonce' => $this->validator->generateNonce($user),
-                'option' => 'per-user',
+                'client_id' => $this->client->getKey(),
+                'scope' => implode(config('shopify.scopes', []), ','),
+                'redirect_uri' => config('shopify.redirect_uri', ''),
+                'state' => $this->validator->generateNonce($user),
+                'grant-options[]' => 'per-user',
             ]);
 
     }
