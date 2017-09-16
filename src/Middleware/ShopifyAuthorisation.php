@@ -10,7 +10,19 @@ use ThemeAnorak\LaravelShopify\Contracts\ShopifyFactoryContract;
 
 class ShopifyAuthorisation
 {
-    public function handle(Request $request, Closure $next, ShopifyFactoryContract $factory)
+    protected $factory;
+
+    /**
+     * ShopifyAuthorisation constructor.
+     * @param $factory
+     */
+    public function __construct(ShopifyFactoryContract $factory)
+    {
+        $this->factory = $factory;
+    }
+
+
+    public function handle(Request $request, Closure $next)
     {
         $user = Auth::user();
         if (!$user) {
@@ -18,7 +30,7 @@ class ShopifyAuthorisation
         }
 
         if (!$request->header('token')) {
-            $factory->auth->getAuthorisationUrl(Auth::user());
+            $this->factory->auth->getAuthorisationUrl(Auth::user());
         }
 
         return $next($request);
