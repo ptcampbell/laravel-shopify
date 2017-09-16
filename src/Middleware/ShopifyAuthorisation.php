@@ -30,7 +30,7 @@ class ShopifyAuthorisation
         }
 
         if (!$request->header('token')) {
-            $this->factory->auth->getAuthorisationUrl(Auth::user());
+            return redirect($this->factory->auth->getAuthorisationUrl(Auth::user()));
         }
 
         return $next($request);
