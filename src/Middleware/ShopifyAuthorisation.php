@@ -29,7 +29,7 @@ class ShopifyAuthorisation
             throw new AuthenticationException();
         }
 
-        if (!$request->header('token')) {
+        if (!$request->hasHeader('token')) {
             return redirect($this->factory->auth->getAuthorisationUrl(Auth::user()));
         }
 
