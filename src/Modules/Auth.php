@@ -49,7 +49,7 @@ class Auth
     public function confirmAuthorisation($user, string $url)
     {
         $uriComponents = $this->getUriComponents($url);
-        if(!$this->validator->matches($user,data_get($uriComponents, 'nonce'))) {
+        if(!$this->validator->matches($user, data_get($uriComponents, 'state'))) {
             throw new NonceFailedException();
         }
 
