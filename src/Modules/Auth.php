@@ -67,7 +67,7 @@ class Auth
     protected function isValidHost(array $uriComponents)
     {
         $host = data_get($uriComponents, 'shop');
-        return dns_check_record($host) && filter_var($host);
+        return dns_check_record($host);
     }
 
     public function getUriComponents(string $url)
