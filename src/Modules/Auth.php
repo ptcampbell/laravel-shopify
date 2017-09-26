@@ -8,6 +8,7 @@ use Dpc\HashVerifier\AuthValidatorContract;
 use ThemeAnorak\LaravelShopify\Exceptions\HashFailedException;
 use ThemeAnorak\LaravelShopify\Exceptions\InvalidHostException;
 use ThemeAnorak\LaravelShopify\Exceptions\NonceFailedException;
+use ThemeAnorak\LaravelShopify\Exceptions\TokenNotReceivedException;
 
 class Auth
 {
@@ -84,7 +85,10 @@ class Auth
             'code' => data_get($uriComponents, 'code'),
         ]);
 
-        return data_get($response, 'token');
+        $token = data_get($response, 'token');
+        if (!$token) {
+            throw new TokenNotReceivedException();
+        }
     }
 
 
