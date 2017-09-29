@@ -5,9 +5,9 @@ namespace ThemeAnorak\LaravelShopify\Modules;
 
 use ThemeAnorak\LaravelShopify\Client;
 use Dpc\HashVerifier\AuthValidatorContract;
-use ThemeAnorak\LaravelShopify\Exceptions\HashFailedException;
+use Dpc\HashVerifier\Exceptions\HashFailedException;
+use Dpc\HashVerifier\Exceptions\NonceFailedException;
 use ThemeAnorak\LaravelShopify\Exceptions\InvalidHostException;
-use ThemeAnorak\LaravelShopify\Exceptions\NonceFailedException;
 use ThemeAnorak\LaravelShopify\Exceptions\TokenNotReceivedException;
 
 class Auth
