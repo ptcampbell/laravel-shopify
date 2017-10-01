@@ -33,7 +33,9 @@ class RequestFactory
         $uri = '/admin/' . $uri;
 
         try {
-            $response = $this->request->send($method, $uri, $data, ['Content-Type' => 'application/json'])->json();
+            $response = $this->request->send($method, $uri, $data, ['Content-Type' => 'application/json'])
+                ->asJson()
+                ->json();
         } catch (RequestException $requestException) {
             $response = $requestException->getMessage();
         }
