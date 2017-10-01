@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../example-app/.idea/example-app.iml" filepath="$PROJECT_DIR$/../example-app/.idea/example-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../guzzle-client/.idea/guzzle-client.iml" filepath="$PROJECT_DIR$/../guzzle-client/.idea/guzzle-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hash-verifier/.idea/hash-verifier.iml" filepath="$PROJECT_DIR$/../hash-verifier/.idea/hash-verifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/shopify.iml" filepath="$PROJECT_DIR$/.idea/shopify.iml" />
     </modules>
