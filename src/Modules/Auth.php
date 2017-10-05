@@ -85,10 +85,11 @@ class Auth
             'code' => data_get($uriComponents, 'code'),
         ]);
 
-        $token = data_get($response, 'token');
+        $token = data_get($response, 'access_token');
         if (!$token) {
             throw new TokenNotReceivedException();
         }
+        return $token;
     }
 
 
