@@ -3,10 +3,12 @@
 namespace ThemeAnorak\LaravelShopify\Modules;
 
 
+use Illuminate\Support\Facades\Cache;
 use ThemeAnorak\LaravelShopify\Client;
 use Dpc\HashVerifier\AuthValidatorContract;
 use Dpc\HashVerifier\Exceptions\HashFailedException;
 use Dpc\HashVerifier\Exceptions\NonceFailedException;
+use ThemeAnorak\LaravelShopify\Contracts\TokenStoreContract;
 use ThemeAnorak\LaravelShopify\Exceptions\InvalidHostException;
 use ThemeAnorak\LaravelShopify\Exceptions\TokenNotReceivedException;
 
@@ -16,18 +18,21 @@ class Auth
 
     protected $validator;
 
+    protected $store;
+
     /**
      * Auth constructor.
      * @param Client $client
      * @param AuthValidatorContract $validator
+     * @param TokenStoreContract $store
      */
-    public function __construct(Client $client, AuthValidatorContract $validator)
+    public function __construct(Client $client, AuthValidatorContract $validator, TokenStoreContract $store)
     {
         $this->client = $client;
         $this->validator = $validator;
+        $this->store = $store;
 
     }
-
 
     /**
      * @link https://help.shopify.com/api/getting-started/authentication/oauth
@@ -79,7 +84,7 @@ class Auth
 
     public function fetchToken(array $uriComponents): string
     {
-        $response = $this->client->getRequest()->post('oauth/access_token', [
+        $response = $this->client->getRequest()->asGuest()->post('oauth/access_token', [
             'client_id' => $this->client->getKey(),
             'client_secret' => $this->client->getSecret(),
             'code' => data_get($uriComponents, 'code'),
@@ -89,6 +94,8 @@ class Auth
         if (!$token) {
             throw new TokenNotReceivedException();
         }
+
+        $this->store->set(Auth::user(), $token);
         return $token;
     }
 

@@ -6,5 +6,6 @@ return [
     'secret' => env('SHOPIFY_SECRET', ''),
     'scopes' => [],
     'redirect_uri' => env('SHOPIFY_REDIRECT_URI', ''),
+    'token_timeout' => 60
 
 ];

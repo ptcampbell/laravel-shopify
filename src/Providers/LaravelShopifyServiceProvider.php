@@ -6,9 +6,11 @@ use Illuminate\Support\ServiceProvider;
 use Dpc\GuzzleClient\GuzzleClientServiceProvider;
 use Dpc\HashVerifier\AuthValidatorServiceProvider;
 use ThemeAnorak\LaravelShopify\Contracts\ShopifyFactoryContract;
+use ThemeAnorak\LaravelShopify\Contracts\TokenStoreContract;
 use ThemeAnorak\LaravelShopify\Modules\RelationHandler;
 use ThemeAnorak\LaravelShopify\Modules\RelationHandlerContract;
 use ThemeAnorak\LaravelShopify\ShopifyFactory;
+use ThemeAnorak\LaravelShopify\TokenStore;
 
 class LaravelShopifyServiceProvider extends ServiceProvider
 {
@@ -31,5 +33,6 @@ class LaravelShopifyServiceProvider extends ServiceProvider
         $this->app->register(GuzzleClientServiceProvider::class);
         $this->app->bind(RelationHandlerContract::class, RelationHandler::class);
         $this->app->bind(ShopifyFactoryContract::class, ShopifyFactory::class);
+        $this->app->bind(TokenStoreContract::class, TokenStore::class);
     }
 }
