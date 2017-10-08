@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0bc8247-3a12-42ef-82e4-ddf8a90b1695" name="Default" comment="auth works">
+    <list default="true" id="d0bc8247-3a12-42ef-82e4-ddf8a90b1695" name="Default" comment="token store changed to facade">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Providers/LaravelShopifyServiceProvider.php" afterPath="$PROJECT_DIR$/src/Providers/LaravelShopifyServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TokenStore.php" afterPath="$PROJECT_DIR$/src/TokenStore.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RequestFactory.php" afterPath="$PROJECT_DIR$/src/RequestFactory.php" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +29,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TokenStore.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TokenStore.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TokenStore.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="486">
+              <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="e#46#83#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestFactory.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RequestFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auth.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Modules/Auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="e#55#92#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,16 +83,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RequestFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LaravelShopifyServiceProvider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Providers/LaravelShopifyServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,16 +98,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="575">
               <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../guzzle-client/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -198,7 +201,6 @@
         <option value="$PROJECT_DIR$/config/guzzle.php" />
         <option value="$PROJECT_DIR$/../hash-verifier/src/Exceptions/HashFailedException.php" />
         <option value="$PROJECT_DIR$/../hash-verifier/src/Exceptions/NonceFailedException.php" />
-        <option value="$PROJECT_DIR$/src/Modules/Auth.php" />
         <option value="$PROJECT_DIR$/../example-app/config/app.php" />
         <option value="$PROJECT_DIR$/../example-app/vendor/kitetail/zttp/src/Zttp.php" />
         <option value="$PROJECT_DIR$/../guzzle-client/composer.json" />
@@ -215,11 +217,12 @@
         <option value="$PROJECT_DIR$/vendor/dpc/hash-verifier/src/HMacValidator.php" />
         <option value="$PROJECT_DIR$/../guzzle-client/src/GuzzleClient.php" />
         <option value="$PROJECT_DIR$/../example-app/tests/Feature/ExampleTest.php" />
-        <option value="$PROJECT_DIR$/src/RequestFactory.php" />
         <option value="$PROJECT_DIR$/../guzzle-client/config.php" />
         <option value="$PROJECT_DIR$/src/Providers/LaravelShopifyServiceProvider.php" />
         <option value="$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Providers/LaravelShopifyServiceProvider.php" />
+        <option value="$PROJECT_DIR$/src/Modules/Auth.php" />
         <option value="$PROJECT_DIR$/src/TokenStore.php" />
+        <option value="$PROJECT_DIR$/src/RequestFactory.php" />
       </list>
     </option>
   </component>
@@ -878,11 +881,32 @@
       <option name="project" value="LOCAL" />
       <updated>1506958891454</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="binding changed in provider">
+      <created>1507490169781</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1507490169781</updated>
+    </task>
+    <task id="LOCAL-00047" summary="token store changed to facade">
+      <created>1507491947250</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1507491947250</updated>
+    </task>
+    <task id="LOCAL-00048" summary="token store changed to facade">
+      <created>1507493097483</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1507493097483</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="454224000" />
+    <option name="totallyTimeSpent" value="458141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
@@ -948,8 +972,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../simple-guzzle-client" />
     </ignored-roots>
-    <MESSAGE value="auth check added to MW" />
-    <MESSAGE value="factory changed to constructor parameter" />
     <MESSAGE value="return redirect added" />
     <MESSAGE value="authorisation test" />
     <MESSAGE value="authorisation header fix" />
@@ -973,7 +995,9 @@
     <MESSAGE value="hash verifier dependency bumped" />
     <MESSAGE value="shopify updated" />
     <MESSAGE value="accept header added" />
-    <option name="LAST_COMMIT_MESSAGE" value="accept header added" />
+    <MESSAGE value="binding changed in provider" />
+    <MESSAGE value="token store changed to facade" />
+    <option name="LAST_COMMIT_MESSAGE" value="token store changed to facade" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1203,6 +1227,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
           <caret line="89" column="15" lean-forward="false" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,20 +1238,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="103" column="1" lean-forward="false" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
-          <folding>
-            <element signature="e#55#92#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../example-app/vendor/dpc/guzzle-client/src/RequestClientContract.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,6 +1250,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,13 +1265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RequestFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1347,10 +1357,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Modules/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#55#92#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TokenStore.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="486">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#46#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequestFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

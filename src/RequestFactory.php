@@ -19,10 +19,12 @@ class RequestFactory
     /**
      * Request constructor.
      * @param RequestClientContract $request
+     * @param TokenStoreContract $store
      */
-    public function __construct(RequestClientContract $request, TokenStoreContract $contract)
+    public function __construct(RequestClientContract $request, TokenStoreContract $store)
     {
         $this->request = $request;
+        $this->store = $store;
     }
 
     public function __call($method, $args)
