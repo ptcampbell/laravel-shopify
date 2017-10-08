@@ -23,6 +23,6 @@ class TokenStore implements TokenStoreContract
 
     public function forget(Model $user): bool
     {
-        Cache::forget('token');
+        return Cache::forget('token');
     }
 }
