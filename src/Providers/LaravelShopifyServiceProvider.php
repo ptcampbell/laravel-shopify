@@ -33,6 +33,10 @@ class LaravelShopifyServiceProvider extends ServiceProvider
         $this->app->register(GuzzleClientServiceProvider::class);
         $this->app->bind(RelationHandlerContract::class, RelationHandler::class);
         $this->app->bind(ShopifyFactoryContract::class, ShopifyFactory::class);
+
+        $this->app->singleton('cache.store', function ($app) {
+            return $app['cache'];
+        });
         $this->app->bind(TokenStoreContract::class, TokenStore::class);
     }
 }

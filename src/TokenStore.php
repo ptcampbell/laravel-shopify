@@ -2,7 +2,6 @@
 
 namespace ThemeAnorak\LaravelShopify;
 
-use Illuminate\Contracts\Cache\Factory;
 use Illuminate\Contracts\Cache\Store;
 use Illuminate\Database\Eloquent\Model;
 use ThemeAnorak\LaravelShopify\Contracts\TokenStoreContract;
