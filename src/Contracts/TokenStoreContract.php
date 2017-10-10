@@ -12,5 +12,7 @@ interface TokenStoreContract
     public function set(Model $user, string $token);
 
     public function forget(Model $user);
+
+    public function has(Model $user);
     
 }

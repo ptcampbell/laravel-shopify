@@ -23,6 +23,12 @@ class TokenStore implements TokenStoreContract
 
     public function forget(Model $user): bool
     {
-        return Cache::forget('token');
+        return Cache::forget($user->id . 'shopify_token');
+    }
+
+    public function has(Model $user)
+    {
+        return (bool)$this->get($user);
+
     }
 }

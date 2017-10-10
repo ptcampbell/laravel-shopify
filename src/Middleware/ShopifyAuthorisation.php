@@ -7,18 +7,22 @@ use Illuminate\Auth\AuthenticationException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use ThemeAnorak\LaravelShopify\Contracts\ShopifyFactoryContract;
+use ThemeAnorak\LaravelShopify\Contracts\TokenStoreContract;
 
 class ShopifyAuthorisation
 {
     protected $factory;
 
+    protected $store;
+
     /**
      * ShopifyAuthorisation constructor.
      * @param $factory
      */
-    public function __construct(ShopifyFactoryContract $factory)
+    public function __construct(ShopifyFactoryContract $factory, TokenStoreContract $store)
     {
         $this->factory = $factory;
+        $this->store = $store;
     }
 
 
@@ -29,7 +33,7 @@ class ShopifyAuthorisation
             throw new AuthenticationException();
         }
 
-        if (!$request->hasHeader('token')) {
+        if ($this->store->has($user)) {
             return redirect($this->factory->auth->getAuthorisationUrl(Auth::user()));
         }
 
