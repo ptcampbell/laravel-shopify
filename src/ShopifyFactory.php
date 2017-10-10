@@ -21,7 +21,7 @@ class ShopifyFactory implements ShopifyFactoryContract
 
     public function __get($method)
     {
-        $class = __NAMESPACE__ . '\\Modules\\' . ucfirst($method);
+        $class = __NAMESPACE__ . '\\Modules\\' . str_singular(ucfirst($method));
         return $this->app->make($class);
     }
 }
