@@ -2,33 +2,31 @@
 
 namespace ThemeAnorak\LaravelShopify;
 
-use Illuminate\Contracts\Cache\Store;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Session;
 use ThemeAnorak\LaravelShopify\Contracts\TokenStoreContract;
 
 class TokenStore implements TokenStoreContract
 {
 
 
-    public function get(Model $user): ?string
+    public function get(): ?string
     {
-        return Cache::get($user->id . 'shopify_token');
+        return Session::get('shopify_token');
     }
 
-    public function set(Model $user, string $token): void
+    public function set(string $token): void
     {
-        Cache::put($user->id . 'shopify_token', $token, config('shopify.token_timout', 60));
+        Session::put('shopify_token', $token);
     }
 
-    public function forget(Model $user): bool
+    public function forget(): bool
     {
-        return Cache::forget($user->id . 'shopify_token');
+        return Session::forget('shopify_token');
     }
 
-    public function has(Model $user)
+    public function has()
     {
-        return (bool)$this->get($user);
+        return Session::has('shopify_token');
 
     }
 }

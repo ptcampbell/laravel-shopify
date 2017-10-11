@@ -3,16 +3,14 @@
 namespace ThemeAnorak\LaravelShopify\Contracts;
 
 
-use Illuminate\Database\Eloquent\Model;
-
 interface TokenStoreContract
 {
-    public function get(Model $user) : ?string;
+    public function get() : ?string;
 
-    public function set(Model $user, string $token);
+    public function set(string $token);
 
-    public function forget(Model $user);
+    public function forget();
 
-    public function has(Model $user);
+    public function has();
     
 }
