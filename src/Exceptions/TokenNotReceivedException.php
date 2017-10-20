@@ -11,6 +11,6 @@ class TokenNotReceivedException extends \Exception
      */
     public function __construct()
     {
-        parent::__construct('No token received from login');
+        parent::__construct('No token received from login', 422);
     }
 }
