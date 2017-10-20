@@ -11,7 +11,7 @@ class ParentResourceNotSpecifiedException extends \Exception
      */
     public function __construct()
     {
-        parent::__construct('Parent resource not specified');
+        parent::__construct('Parent resource not specified', 422);
 
     }
 }
