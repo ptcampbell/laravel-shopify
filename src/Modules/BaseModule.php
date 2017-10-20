@@ -73,4 +73,10 @@ abstract class BaseModule
         return $this->client->getRequest()->delete($this->prepareUri("#$id.json"));
     }
 
+    protected function generateUri($url): string
+    {
+        $params = $this->params ? '?' . http_build_query([$this->params]) : '';
+        return $url . $params;
+    }
+
 }

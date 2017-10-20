@@ -14,7 +14,7 @@ class Metafield extends BaseModule
             $url = 'metafields.json';
         }
 
-        return url($url, $this->params);
+        return $this->generateUri($url);
     }
 
     public function since(int $id): Metafield

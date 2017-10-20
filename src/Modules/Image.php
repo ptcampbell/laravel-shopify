@@ -8,9 +8,9 @@ class Image extends BaseModule
     protected function prepareUri(string $uri = 'images.json'): string
     {
         if ($this->parent) {
-            return url("products/#$this->parent/$uri", $this->params);
+            return $this->generateUri("products/#$this->parent/$uri");
         }
 
-        return url('variants/' . $uri, $this->params);
+        return $this->generateUri('variants/' . $uri);
     }
 }

@@ -8,11 +8,8 @@ class Variant extends BaseModule
 {
     protected function prepareUri(string $uri = 'variants.json'): string
     {
-        if ($this->parent) {
-            return url("products/#$this->parent/$uri", $this->params);
-        }
-
-        return url('variants/' . $uri, $this->params);
+        $url = $this->parent ? "products/#$this->parent/$uri" : "variants/$uri";
+        return $this->generateUri($url);
     }
 
 }

@@ -25,7 +25,7 @@ class Product extends BaseModule
     protected function prepareUri(string $uri = ''): string
     {
         $url = $uri ? 'products/' . $uri : 'products.json';
-        return url($url, $this->params);
+        return $this->generateUri($url);
     }
 
 }
