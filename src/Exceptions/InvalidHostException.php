@@ -11,6 +11,6 @@ class InvalidHostException extends \Exception
      */
     public function __construct()
     {
-        parent::__construct('Host is invalid');
+        parent::__construct('Host is invalid', 422);
     }
 }
