@@ -33,7 +33,7 @@ class ShopifyAuthorisation
             throw new AuthenticationException();
         }
 
-        if ($this->store->has($user)) {
+        if (! $this->store->has($user)) {
             return redirect($this->factory->auth->getAuthorisationUrl(Auth::user()));
         }
 
