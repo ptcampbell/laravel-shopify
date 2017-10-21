@@ -95,7 +95,7 @@ class Auth
             throw new TokenNotReceivedException();
         }
 
-        $this->store->set(\Auth::user(), $token);
+        $this->store->set($token);
         return $token;
     }
 
