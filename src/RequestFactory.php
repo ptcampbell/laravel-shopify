@@ -48,8 +48,8 @@ class RequestFactory
         } catch (RequestException $requestException) {
             $response = $requestException->getMessage();
         }
-        return $response;
 
+        return is_object($response) ? array_flatten(array_values((array)$response)) : $response;
     }
 
     public function asGuest()

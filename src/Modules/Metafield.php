@@ -8,10 +8,13 @@ class Metafield extends BaseModule
 
     protected function prepareUri(string $uri = ''): string
     {
-        if ($uri) {
-            $url = $this->parent ? key($this->parent) : "metafields/$uri";
+        $endpoint = $uri ? "metafields/$uri" : 'metafields.json';
+
+        if ($this->parent) {
+            $key = key($this->parent);
+            $url = $key . '/' . $this->parent[$key];
         } else {
-            $url = 'metafields.json';
+            $url = $endpoint;
         }
 
         return $this->generateUri($url);
