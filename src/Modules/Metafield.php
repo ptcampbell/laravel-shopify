@@ -12,7 +12,7 @@ class Metafield extends BaseModule
 
         if ($this->parent) {
             $key = key($this->parent);
-            $url = $key . '/' . $this->parent[$key];
+            $url = $key . '/' . $this->parent[$key] . "/$endpoint";
         } else {
             $url = $endpoint;
         }
