@@ -53,7 +53,7 @@ abstract class BaseModule
 
     public function update(int $id, array $product)
     {
-        return $this->client->getRequest()->update($this->prepareUri("#$id.json"), $product);
+        return $this->client->getRequest()->put($this->prepareUri("#$id.json"), $product);
     }
 
     public function with($relations): BaseModule
