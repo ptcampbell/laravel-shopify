@@ -33,7 +33,6 @@ class RequestFactory
 
         $headers = [
                 'Content-Type' => 'application/json',
-                'Accept' => 'application/json'
         ];
         if (!$this->guest) {
             $headers['X-Shopify-Access-Token'] = $this->store->get(Auth::user());
