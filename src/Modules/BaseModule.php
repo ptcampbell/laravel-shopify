@@ -39,21 +39,21 @@ abstract class BaseModule
 
     public function first(int $id)
     {
-        $results = $this->client->getRequest()->get($this->prepareUri("#$id.json"));
+        $results = $this->client->getRequest()->get($this->prepareUri("$id.json"));
         if ($results) {
             $results['related'] = $this->relationHandler->loadRelations($results);
         }
         return $results;
     }
 
-    public function create(array $product)
+    public function create(array $resource)
     {
-        return $this->client->getRequest()->post($this->prepareUri(), $product);
+        return $this->client->getRequest()->post($this->prepareUri(), $resource);
     }
 
-    public function update(int $id, array $product)
+    public function update(int $id, array $resource)
     {
-        return $this->client->getRequest()->put($this->prepareUri("#$id.json"), $product);
+        return $this->client->getRequest()->put($this->prepareUri("$id.json"), $resource);
     }
 
     public function with($relations): BaseModule
@@ -70,7 +70,7 @@ abstract class BaseModule
 
     public function delete(int $id)
     {
-        return $this->client->getRequest()->delete($this->prepareUri("#$id.json"));
+        return $this->client->getRequest()->delete($this->prepareUri("$id.json"));
     }
 
     protected function generateUri($url): string
