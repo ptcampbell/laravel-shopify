@@ -3,9 +3,10 @@
 namespace ThemeAnorak\LaravelShopify\Modules;
 
 
-use Illuminate\Support\Facades\Cache;
+use Dpc\HashVerifier\NonceContract;
 use ThemeAnorak\LaravelShopify\Client;
 use Dpc\HashVerifier\AuthValidatorContract;
+use Dpc\HashVerifier\HMacValidatorContract;
 use Dpc\HashVerifier\Exceptions\HashFailedException;
 use Dpc\HashVerifier\Exceptions\NonceFailedException;
 use ThemeAnorak\LaravelShopify\Contracts\TokenStoreContract;
@@ -16,6 +17,8 @@ class Auth
 {
     protected $client;
 
+    protected $generator;
+
     protected $validator;
 
     protected $store;
@@ -23,12 +26,14 @@ class Auth
     /**
      * Auth constructor.
      * @param Client $client
+     * @param NonceContract $nonceGenerator
      * @param AuthValidatorContract $validator
      * @param TokenStoreContract $store
      */
-    public function __construct(Client $client, AuthValidatorContract $validator, TokenStoreContract $store)
+    public function __construct(Client $client, NonceContract $nonceGenerator, HMacValidatorContract $validator, TokenStoreContract $store)
     {
         $this->client = $client;
+        $this->nonceGenerator = $nonceGenerator;
         $this->validator = $validator;
         $this->store = $store;
 
@@ -46,16 +51,18 @@ class Auth
                 'client_id' => $this->client->getKey(),
                 'scope' => implode(config('shopify.scopes', []), ','),
                 'redirect_uri' => config('shopify.redirect_uri', ''),
-                'state' => $this->validator->generateNonce($user),
+                'state' => $this->nonceGenerator->generateNonce($user),
                 'grant-options[]' => 'per-user',
             ]);
 
     }
 
-    public function confirmAuthorisation($user, string $url)
+    public function confirmAuthorisation(string $url)
     {
         $uriComponents = $this->getUriComponents($url);
-        if(!$this->validator->matches($user, data_get($uriComponents, 'state'))) {
+
+        $nonce = $this->nonceGenerator->getStoredNonce();
+        if(!$this->nonceGenerator->matches($nonce, data_get($uriComponents, 'state'))) {
             throw new NonceFailedException();
         }
 

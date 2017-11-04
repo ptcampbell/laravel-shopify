@@ -4,8 +4,8 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "dpc/hash-verifier": "^0.2.0",
-        "dpc/guzzle-client": "^0.3.1"
+        "dpc/guzzle-client": "^0.3.1",
+        "dpc/hash-verifier": "^0.2.0"
     },
     "require-dev": {
     },
