@@ -50,7 +50,7 @@ class Auth
                 'client_id' => $this->client->getKey(),
                 'scope' => implode(config('shopify.scopes', []), ','),
                 'redirect_uri' => config('shopify.redirect_uri', ''),
-                'state' => $this->nonceGenerator->generateNonce($user),
+                'state' => $this->nonceGenerator->generateNonce(),
                 'grant-options[]' => 'per-user',
             ]);
 
