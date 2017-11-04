@@ -41,10 +41,9 @@ class Auth
 
     /**
      * @link https://help.shopify.com/api/getting-started/authentication/oauth
-     * @param $user
      * @return string
      */
-    public function getAuthorisationUrl($user): string
+    public function getAuthorisationUrl(): string
     {
         $domain = $this->client->getDomain();
         return "$domain/admin/oauth/authorize?" . http_build_query([
