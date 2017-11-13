@@ -22,7 +22,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ThemeAnorak\\LaravelShopify\\Providers\\LaravelShopifyServiceProvider"
+                "ThemeAnorak\\LaravelShopify\\Providers\\LaravelShopifyServiceProvider",
+                "ThemeAnorak\\LaravelShopify\\Providers\\ShopifyAuthServiceProvider"
             ]
         }
     },
