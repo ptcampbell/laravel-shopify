@@ -28,12 +28,7 @@ class ShopifyAuthorisation
 
     public function handle(Request $request, Closure $next)
     {
-        $user = Auth::user();
-        if (!$user) {
-            throw new AuthenticationException();
-        }
-
-        if (! $this->store->has($user)) {
+        if (! $this->store->has()) {
             return redirect($this->factory->auth->getAuthorisationUrl(Auth::user()));
         }
 
