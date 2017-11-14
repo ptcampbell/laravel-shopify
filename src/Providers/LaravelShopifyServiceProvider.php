@@ -18,7 +18,7 @@ class LaravelShopifyServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../../config/shopify.php' => config_path('shopify.php'),
-            __DIR__ . '../../config/guzzle.php' => config_path('guzzle.php'),
+            __DIR__ . '/../../config/guzzle.php' => config_path('guzzle.php'),
         ], 'shopify-config');
     }
 
