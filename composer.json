@@ -5,7 +5,8 @@
     "license": "MIT",
     "require": {
         "dpc/guzzle-client": "^0.3.1",
-        "dpc/hash-verifier": "^0.2.0"
+        "dpc/hash-verifier": "^0.2.0",
+        "dpc/sans-model-auth": "dev-master"
     },
     "require-dev": {
     },
