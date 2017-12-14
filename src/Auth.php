@@ -1,6 +1,6 @@
 <?php
 
-namespace ThemeAnorak\LaravelShopify\Modules;
+namespace ThemeAnorak\LaravelShopify;
 
 
 use Dpc\HashVerifier\NonceContract;
@@ -9,11 +9,12 @@ use Dpc\HashVerifier\AuthValidatorContract;
 use Dpc\HashVerifier\HMacValidatorContract;
 use Dpc\HashVerifier\Exceptions\HashFailedException;
 use Dpc\HashVerifier\Exceptions\NonceFailedException;
+use ThemeAnorak\LaravelShopify\Contracts\AuthContract;
 use ThemeAnorak\LaravelShopify\Contracts\TokenStoreContract;
 use ThemeAnorak\LaravelShopify\Exceptions\InvalidHostException;
 use ThemeAnorak\LaravelShopify\Exceptions\TokenNotReceivedException;
 
-class Auth
+class Auth implements AuthContract
 {
     protected $client;
 
@@ -26,14 +27,14 @@ class Auth
     /**
      * Auth constructor.
      * @param Client $client
-     * @param NonceContract $nonceGenerator
-     * @param AuthValidatorContract $validator
+     * @param NonceContract $generator
+     * @param HMacValidatorContract $validator
      * @param TokenStoreContract $store
      */
-    public function __construct(Client $client, NonceContract $nonceGenerator, HMacValidatorContract $validator, TokenStoreContract $store)
+    public function __construct(Client $client, NonceContract $generator, HMacValidatorContract $validator, TokenStoreContract $store)
     {
         $this->client = $client;
-        $this->nonceGenerator = $nonceGenerator;
+        $this->generator = $generator;
         $this->validator = $validator;
         $this->store = $store;
 
@@ -50,7 +51,7 @@ class Auth
                 'client_id' => $this->client->getKey(),
                 'scope' => implode(config('shopify.scopes', []), ','),
                 'redirect_uri' => config('shopify.redirect_uri', ''),
-                'state' => $this->nonceGenerator->generateNonce(),
+                'state' => $this->generator->generateNonce(),
                 'grant-options[]' => 'per-user',
             ]);
 
@@ -60,8 +61,8 @@ class Auth
     {
         $uriComponents = $this->getUriComponents($url);
 
-        $nonce = $this->nonceGenerator->getStoredNonce();
-        if(!$this->nonceGenerator->matches($nonce, data_get($uriComponents, 'state'))) {
+        $nonce = $this->generator->getStoredNonce();
+        if(!$this->generator->matches($nonce, data_get($uriComponents, 'state'))) {
             throw new NonceFailedException();
         }
 
@@ -104,7 +105,5 @@ class Auth
         $this->store->set($token);
         return $token;
     }
-
-
 
 }

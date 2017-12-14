@@ -4,5 +4,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../guzzle-client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hash-verifier" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../recipes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../sans-model-auth" vcs="Git" />
   </component>
 </project>

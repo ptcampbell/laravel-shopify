@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0bc8247-3a12-42ef-82e4-ddf8a90b1695" name="Default" comment="modules updated">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/shopify.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example-app/composer.lock" afterPath="$PROJECT_DIR$/../example-app/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Modules/BaseModule.php" afterPath="$PROJECT_DIR$/src/Modules/BaseModule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Modules/Image.php" afterPath="$PROJECT_DIR$/src/Modules/Image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Modules/Metafield.php" afterPath="$PROJECT_DIR$/src/Modules/Metafield.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Modules/Product.php" afterPath="$PROJECT_DIR$/src/Modules/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Modules/Variant.php" afterPath="$PROJECT_DIR$/src/Modules/Variant.php" />
+    <list default="true" id="d0bc8247-3a12-42ef-82e4-ddf8a90b1695" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Contracts/AuthContract.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Providers/ShopifyAuthService.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ShopifyUser.php" />
+      <change beforePath="$PROJECT_DIR$/../example-app/app/Http/Controllers/Auth/ForgotPasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../example-app/app/Http/Controllers/Auth/LoginController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../example-app/app/Http/Controllers/Auth/RegisterController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../example-app/app/Http/Controllers/Auth/ResetPasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../example-app/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/../example-app/app/Http/Controllers/HomeController.php" />
+      <change beforePath="$PROJECT_DIR$/../example-app/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/../example-app/app/Http/Kernel.php" />
+      <change beforePath="$PROJECT_DIR$/../example-app/composer.lock" afterPath="$PROJECT_DIR$/../example-app/composer.lock" />
+      <change beforePath="$PROJECT_DIR$/../example-app/config/auth.php" afterPath="$PROJECT_DIR$/../example-app/config/auth.php" />
+      <change beforePath="$PROJECT_DIR$/../example-app/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/../example-app/resources/views/auth/login.blade.php" />
+      <change beforePath="$PROJECT_DIR$/../example-app/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/../example-app/resources/views/welcome.blade.php" />
+      <change beforePath="$PROJECT_DIR$/../example-app/routes/web.php" afterPath="$PROJECT_DIR$/../example-app/routes/web.php" />
+      <change beforePath="$PROJECT_DIR$/../recipes/app/Http/Controllers/Api/RecipeController.php" afterPath="$PROJECT_DIR$/../recipes/app/Http/Controllers/Api/RecipeController.php" />
+      <change beforePath="$PROJECT_DIR$/../sans-model-auth/composer.json" afterPath="$PROJECT_DIR$/../sans-model-auth/composer.json" />
+      <change beforePath="$PROJECT_DIR$/../sans-model-auth/src/EnvGuard.php" afterPath="$PROJECT_DIR$/../sans-model-auth/src/SansModelGuard.php" />
+      <change beforePath="$PROJECT_DIR$/../sans-model-auth/src/EnvUser.php" afterPath="$PROJECT_DIR$/../sans-model-auth/src/SansModelUser.php" />
+      <change beforePath="$PROJECT_DIR$/../sans-model-auth/src/SansModelAuthServiceProvider.php" afterPath="$PROJECT_DIR$/../sans-model-auth/src/SansModelAuthServiceProvider.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/shopify.iml" afterPath="$PROJECT_DIR$/.idea/shopify.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Middleware/AuthGuard.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Modules/Auth.php" afterPath="$PROJECT_DIR$/src/Auth.php" />
+      <change beforePath="$PROJECT_DIR$/src/Providers/ShopifyAuthServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Providers/ShopifyUser.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Providers/ShopifyUserProvider.php" afterPath="" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,109 +40,106 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" doNotAsk="true" />
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="shopify" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Modules/Product.php">
+      <file leaf-file-name="SansModelGuard.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../sans-model-auth/src/SansModelGuard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="18">
+              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UrlGenerator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../example-app/vendor/symfony/routing/Generator/UrlGenerator.php">
+      <file leaf-file-name="SansModelUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sans-model-auth/src/SansModelUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="138" column="5" lean-forward="true" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+            <state relative-caret-position="126">
+              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/RequestFactory.php">
+      <file leaf-file-name="EnvGuard.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/dpc/sans-model-auth/src/EnvGuard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding>
-                <element signature="e#46#88#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Modules/Product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            <state relative-caret-position="1746">
+              <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Image.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Modules/Image.php">
+      <file leaf-file-name="Auth.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="990">
+              <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Metafield.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Modules/Metafield.php">
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../example-app/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="594">
+              <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RelationHandler.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Modules/RelationHandler.php">
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../example-app/app/Http/Controllers/Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Variant.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Modules/Variant.php">
+      <file leaf-file-name="AuthContract.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Contracts/AuthContract.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="162">
+              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseModule.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Modules/BaseModule.php">
+      <file leaf-file-name="ShopifyAuthService.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Providers/ShopifyAuthService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="73" column="3" lean-forward="true" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
+            <state relative-caret-position="684">
+              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseModule.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Modules/BaseModule.php">
+      <file leaf-file-name="ShopifyUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ShopifyUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthServiceContract.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sans-model-auth/src/AuthServiceContract.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -134,36 +149,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setT</find>
-      <find>setTa</find>
-      <find>setTab</find>
-      <find>setTabl</find>
-      <find>setTable</find>
-      <find>getTable</find>
-      <find>status</find>
-      <find>valid</find>
-      <find>valida</find>
-      <find>validator</find>
-      <find>validator.se</find>
-      <find>validator.sec</find>
-      <find>validator.secre</find>
-      <find>validator.secret</find>
-      <find>n</find>
-      <find>no</find>
-      <find>nonce.se</find>
-      <find>nonce.</find>
-      <find>send(</find>
-      <find>post</find>
-      <find>nonce</find>
-      <find>has(</find>
-      <find>getDoma</find>
-      <find>getDomain</find>
-      <find>get</find>
-      <find>relative</find>
-      <find>d</find>
-      <find>dd</find>
-      <find>dd(</find>
-      <find>dd(</find>
+      <find>afte</find>
+      <find>after</find>
+      <find>afterR</find>
+      <find>afterResp</find>
+      <find>afterRes</find>
+      <find>afterReso</find>
+      <find>afterResol</find>
+      <find>afterResolv</find>
+      <find>afterResolvi</find>
+      <find>afterResolvin</find>
+      <find>afterResolving</find>
+      <find>t</find>
+      <find>time()</find>
+      <find>auth</find>
+      <find>static</find>
+      <find>sttic</find>
+      <find>static::publishes</find>
+      <find>exists</find>
+      <find>'</find>
+      <find>'l</find>
+      <find>'log</find>
+      <find>'login</find>
+      <find>'login'</find>
+      <find>authenticate</find>
+      <find>-&gt;auth</find>
+      <find>loadCount</find>
+      <find>PhpUnit</find>
+      <find>User</find>
+      <find>EnvUser</find>
+      <find>setUser</find>
     </findStrings>
     <replaceStrings>
       <replace>ThemeAnorak\LaravelShopify</replace>
@@ -171,7 +186,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../sans-model-auth" />
     <push-targets>
       <push-target-info target-remote="origin" target-branch="fix/string" repo="$PROJECT_DIR$/../guzzle-client" source="master" />
     </push-targets>
@@ -179,50 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../example-app/storage/logs/laravel.log" />
-        <option value="$PROJECT_DIR$/../example-app/vendor/dpc/hash-verifier/src/HMacValidator.php" />
-        <option value="$PROJECT_DIR$/vendor/dpc/hash-verifier/src/NonceGenerator.php" />
-        <option value="$PROJECT_DIR$/../example-app/vendor/dpc/hash-verifier/src/NonceGenerator.php" />
-        <option value="$PROJECT_DIR$/../example-app/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/../example-app/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/../example-app/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/../example-app/app/Http/Controllers/Auth/LoginController.php" />
-        <option value="$PROJECT_DIR$/src/Exceptions/HashFailedException.php" />
-        <option value="$PROJECT_DIR$/../example-app/app/Http/Controllers/Controller.php" />
-        <option value="$PROJECT_DIR$/src/Exceptions/TokenNotReceivedException.php" />
-        <option value="$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Modules/Auth.php" />
-        <option value="$PROJECT_DIR$/../example-app/vendor/dpc/guzzle-client/src/GuzzleClient.php" />
-        <option value="$PROJECT_DIR$/config/guzzle.php" />
-        <option value="$PROJECT_DIR$/../hash-verifier/src/Exceptions/HashFailedException.php" />
-        <option value="$PROJECT_DIR$/../hash-verifier/src/Exceptions/NonceFailedException.php" />
-        <option value="$PROJECT_DIR$/../example-app/config/app.php" />
-        <option value="$PROJECT_DIR$/../example-app/vendor/kitetail/zttp/src/Zttp.php" />
-        <option value="$PROJECT_DIR$/../guzzle-client/composer.json" />
-        <option value="$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" />
-        <option value="$PROJECT_DIR$/../guzzle-client/src/RequestClientContract.php" />
-        <option value="$PROJECT_DIR$/../example-app/routes/api.php" />
-        <option value="$PROJECT_DIR$/../example-app/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/../hash-verifier/composer.json" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/vendor/dpc/hash-verifier/config/validator.php" />
-        <option value="$PROJECT_DIR$/../example-app/config/validator.php" />
-        <option value="$PROJECT_DIR$/vendor/dpc/hash-verifier/src/HMacValidator.php" />
-        <option value="$PROJECT_DIR$/../guzzle-client/src/GuzzleClient.php" />
-        <option value="$PROJECT_DIR$/../example-app/tests/Feature/ExampleTest.php" />
-        <option value="$PROJECT_DIR$/../guzzle-client/config.php" />
-        <option value="$PROJECT_DIR$/src/Providers/LaravelShopifyServiceProvider.php" />
-        <option value="$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Providers/LaravelShopifyServiceProvider.php" />
-        <option value="$PROJECT_DIR$/src/Modules/Auth.php" />
-        <option value="$PROJECT_DIR$/../example-app/routes/web.php" />
-        <option value="$PROJECT_DIR$/src/Middleware/ShopifyAuthorisation.php" />
-        <option value="$PROJECT_DIR$/../guzzle-client/vendor/illuminate/contracts/Cache/Store.php" />
-        <option value="$PROJECT_DIR$/../example-app/app/Http/Controllers/ProductController.php" />
-        <option value="$PROJECT_DIR$/src/ShopifyFactory.php" />
-        <option value="$PROJECT_DIR$/../example-app/.env" />
-        <option value="$PROJECT_DIR$/src/Contracts/TokenStoreContract.php" />
-        <option value="$PROJECT_DIR$/src/TokenStore.php" />
-        <option value="$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Modules/BaseModule.php" />
-        <option value="$PROJECT_DIR$/src/RequestFactory.php" />
         <option value="$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Modules/Product.php" />
         <option value="$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/RequestFactory.php" />
         <option value="$PROJECT_DIR$/src/Modules/Product.php" />
@@ -230,6 +201,50 @@
         <option value="$PROJECT_DIR$/src/Modules/Image.php" />
         <option value="$PROJECT_DIR$/src/Modules/Metafield.php" />
         <option value="$PROJECT_DIR$/src/Modules/Variant.php" />
+        <option value="$PROJECT_DIR$/../hash-verifier/src/AuthValidatorContract.php" />
+        <option value="$PROJECT_DIR$/../example-app/vendor/dpc/hash-verifier/src/NonceContract.php" />
+        <option value="$PROJECT_DIR$/../hash-verifier/src/NonceGenerator.php" />
+        <option value="$PROJECT_DIR$/../hash-verifier/src/NonceContract.php" />
+        <option value="$PROJECT_DIR$/../hash-verifier/src/AuthValidator.php" />
+        <option value="$PROJECT_DIR$/../hash-verifier/src/AuthValidatorServiceProvider.php" />
+        <option value="$PROJECT_DIR$/../hash-verifier/config/validator.php" />
+        <option value="$PROJECT_DIR$/../hash-verifier/README.md" />
+        <option value="$PROJECT_DIR$/src/Modules/Auth.php" />
+        <option value="$PROJECT_DIR$/../example-app/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/../example-app/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/../example-app/app/Http/Controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/src/Middleware/ShopifyAuthorisation.php" />
+        <option value="$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/src/Contracts/TokenStoreContract.php" />
+        <option value="$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" />
+        <option value="$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Routing/Exceptions/UrlGenerationException.php" />
+        <option value="$PROJECT_DIR$/src/Providers/ShopifyUserProvider.php" />
+        <option value="$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Auth/GenericUser.php" />
+        <option value="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Guard.php" />
+        <option value="$PROJECT_DIR$/src/Providers/ShopifyUser.php" />
+        <option value="$PROJECT_DIR$/../example-app/config/auth.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/config/guzzle.php" />
+        <option value="$PROJECT_DIR$/src/Providers/LaravelShopifyServiceProvider.php" />
+        <option value="$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Providers/LaravelShopifyServiceProvider.php" />
+        <option value="$PROJECT_DIR$/../example-app/routes/web.php" />
+        <option value="$PROJECT_DIR$/vendor/illuminate/support/ServiceProvider.php" />
+        <option value="$PROJECT_DIR$/../example-app/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/src/Providers/ShopifyAuthServiceProvider.php" />
+        <option value="$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Middleware/AuthGuard.php" />
+        <option value="$PROJECT_DIR$/src/Middleware/AuthGuard.php" />
+        <option value="$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php" />
+        <option value="$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Providers/ShopifyAuthServiceProvider.php" />
+        <option value="$PROJECT_DIR$/../sans-model-auth/src/EnvGuard.php" />
+        <option value="$PROJECT_DIR$/src/AuthContract.php" />
+        <option value="$PROJECT_DIR$/src/Contracts/AuthContract.php" />
+        <option value="$PROJECT_DIR$/../sans-model-auth/src/EnvUser.php" />
+        <option value="$PROJECT_DIR$/src/ShopifyUser.php" />
+        <option value="$PROJECT_DIR$/../sans-model-auth/src/SansModelUser.php" />
+        <option value="$PROJECT_DIR$/src/Providers/ShopifyAuthService.php" />
+        <option value="$PROJECT_DIR$/src/Auth.php" />
+        <option value="$PROJECT_DIR$/../example-app/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/../sans-model-auth/src/SansModelGuard.php" />
       </list>
     </option>
   </component>
@@ -239,12 +254,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/../example-app/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-11" />
-    <option name="width" value="1368" />
-    <option name="height" value="780" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="24" />
+    <option name="width" value="1364" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,101 +280,77 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hash-verifier" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hash-verifier" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hash-verifier" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exceptions" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example-app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example-app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="shopify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopify" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shopify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shopify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shopify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shopify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shopify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sans-model-auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shopify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sans-model-auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="true&#10;/home/dpc/Code/example-app/storage/logs/laravel.log" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guzzle-client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sans-model-auth" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
-    <property name="settings.editor.selected.configurable" value="upsource.project.settings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
   <component name="Push.Settings">
     <excluded-roots>
       <path value="$PROJECT_DIR$/../example-app" />
       <path value="$PROJECT_DIR$/../hash-verifier" />
+      <path value="$PROJECT_DIR$/../recipes" />
     </excluded-roots>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Providers" />
       <recent name="$PROJECT_DIR$/../guzzle-client" />
       <recent name="$PROJECT_DIR$/../guzzle-client/src" />
       <recent name="$PROJECT_DIR$/../simple-guzzle-client" />
       <recent name="$PROJECT_DIR$/../simple-guzzle-client/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Contracts" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/../hash-verifier/src/Exceptions" />
       <recent name="$PROJECT_DIR$/../guzzle-client/src" />
       <recent name="$PROJECT_DIR$/../simple-guzzle-client/src" />
@@ -465,15 +458,6 @@
       <module />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -493,6 +477,14 @@
       <test-directory />
       <recursive>false</recursive>
       <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -580,97 +572,57 @@
       <workItem from="1507893661826" duration="720000" />
       <workItem from="1508414994098" duration="7788000" />
       <workItem from="1508500692488" duration="14188000" />
-    </task>
-    <task id="LOCAL-00008" summary="image added, variant bug fixed">
-      <created>1503171793864</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1503171793864</updated>
-    </task>
-    <task id="LOCAL-00009" summary="upgraded guzzle client from dev to 0.3">
-      <created>1505327562323</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1505327562323</updated>
-    </task>
-    <task id="LOCAL-00010" summary="metafield module created&#10;parent changed to an array&#10;guzzle client extracted out, package included">
-      <created>1505333219393</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1505333219393</updated>
-    </task>
-    <task id="LOCAL-00011" summary="laravel shopify dependency added">
-      <created>1505333689214</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1505333689214</updated>
-    </task>
-    <task id="LOCAL-00012" summary="guzzle config added and provider modified to suit the changes&#10;tag changed in service provider">
-      <created>1505335978937</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1505335978937</updated>
-    </task>
-    <task id="LOCAL-00013" summary="configs published">
-      <created>1505336701500</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1505336701500</updated>
-    </task>
-    <task id="LOCAL-00014" summary="factory binding added">
-      <created>1505392597190</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1505392597190</updated>
-    </task>
-    <task id="LOCAL-00015" summary="import added">
-      <created>1505392890997</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1505392890997</updated>
-    </task>
-    <task id="LOCAL-00016" summary="headers added">
-      <created>1505415705824</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1505415705824</updated>
-    </task>
-    <task id="LOCAL-00017" summary="get authorisation url fixed">
-      <created>1505564208172</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1505564208172</updated>
-    </task>
-    <task id="LOCAL-00018" summary="authorisation middleware added">
-      <created>1505589199817</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1505589199817</updated>
-    </task>
-    <task id="LOCAL-00019" summary="auth check added to MW">
-      <created>1505593344811</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1505593344811</updated>
-    </task>
-    <task id="LOCAL-00020" summary="factory changed to constructor parameter">
-      <created>1505595185741</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1505595185741</updated>
+      <workItem from="1509646079493" duration="207000" />
+      <workItem from="1509688381175" duration="3303000" />
+      <workItem from="1509699439328" duration="2275000" />
+      <workItem from="1509701720339" duration="14014000" />
+      <workItem from="1509729174105" duration="5024000" />
+      <workItem from="1509773142652" duration="2508000" />
+      <workItem from="1509862278707" duration="16146000" />
+      <workItem from="1509966471094" duration="6052000" />
+      <workItem from="1510029254877" duration="4295000" />
+      <workItem from="1510050820691" duration="5182000" />
+      <workItem from="1510077473347" duration="387000" />
+      <workItem from="1510117102108" duration="1151000" />
+      <workItem from="1510121870167" duration="16532000" />
+      <workItem from="1510226873363" duration="11096000" />
+      <workItem from="1510250618807" duration="487000" />
+      <workItem from="1510295076704" duration="10818000" />
+      <workItem from="1510315546471" duration="1544000" />
+      <workItem from="1510326922998" duration="1610000" />
+      <workItem from="1510381639769" duration="1359000" />
+      <workItem from="1510390886796" duration="15081000" />
+      <workItem from="1510478093208" duration="11827000" />
+      <workItem from="1510552022222" duration="20000000" />
+      <workItem from="1510639066447" duration="18657000" />
+      <workItem from="1510667236512" duration="322000" />
+      <workItem from="1510668257005" duration="2229000" />
+      <workItem from="1510724387593" duration="19525000" />
+      <workItem from="1510768084545" duration="77000" />
+      <workItem from="1510900888410" duration="55000" />
+      <workItem from="1511760558336" duration="2280000" />
+      <workItem from="1511794289132" duration="2818000" />
+      <workItem from="1511847617177" duration="3926000" />
+      <workItem from="1511859189846" duration="7121000" />
+      <workItem from="1511878333740" duration="3245000" />
+      <workItem from="1511933558178" duration="12286000" />
+      <workItem from="1511960708757" duration="7717000" />
+      <workItem from="1512019929413" duration="5780000" />
+      <workItem from="1512035861621" duration="1362000" />
+      <workItem from="1512037960335" duration="8000" />
+      <workItem from="1512038035630" duration="6477000" />
+      <workItem from="1512050642191" duration="4001000" />
+      <workItem from="1512111534246" duration="15209000" />
+      <workItem from="1512139129362" duration="1055000" />
+      <workItem from="1512140696451" duration="2148000" />
+      <workItem from="1512193485191" duration="8128000" />
+      <workItem from="1512227885353" duration="2000" />
+      <workItem from="1512234395212" duration="2000" />
+      <workItem from="1512284132796" duration="3578000" />
+      <workItem from="1512365411976" duration="4429000" />
+      <workItem from="1512412562199" duration="6000" />
+      <workItem from="1512454728357" duration="13081000" />
+      <workItem from="1513271122812" duration="495000" />
     </task>
     <task id="LOCAL-00021" summary="return redirect added">
       <created>1505596011617</created>
@@ -924,40 +876,134 @@
       <option name="project" value="LOCAL" />
       <updated>1507750079366</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="nonce stores in session instead of db">
+      <created>1509720936592</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1509720936593</updated>
+    </task>
+    <task id="LOCAL-00058" summary="contracts changed to match storing in session instead of db&#10;updated with latest change">
+      <created>1509722128028</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1509722128028</updated>
+    </task>
+    <task id="LOCAL-00059" summary="dependency updated">
+      <created>1509729984068</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1509729984068</updated>
+    </task>
+    <task id="LOCAL-00060" summary="get stored nonce function added">
+      <created>1509730621931</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1509730621931</updated>
+    </task>
+    <task id="LOCAL-00061" summary="validator &amp; contract removed">
+      <created>1509733429024</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1509733429024</updated>
+    </task>
+    <task id="LOCAL-00062" summary="code changed for latest hash-verifier version">
+      <created>1509773737698</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1509773737699</updated>
+    </task>
+    <task id="LOCAL-00063" summary="user removed from authorisation url signature">
+      <created>1509774967371</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1509774967371</updated>
+    </task>
+    <task id="LOCAL-00064" summary="user removed from call to nonce generation">
+      <created>1509775708637</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1509775708637</updated>
+    </task>
+    <task id="LOCAL-00065" summary="user removed from call to nonce generation">
+      <created>1510568084754</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1510568084755</updated>
+    </task>
+    <task id="LOCAL-00066" summary="added provider to composer.json">
+      <created>1510579231089</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1510579231089</updated>
+    </task>
+    <task id="LOCAL-00067" summary="minor bug fix">
+      <created>1510649839165</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1510649839165</updated>
+    </task>
+    <task id="LOCAL-00068" summary="gate included in service provider">
+      <created>1510730104358</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1510730104359</updated>
+    </task>
+    <task id="LOCAL-00069" summary="user removed from call to nonce generation">
+      <created>1511796179332</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1511796179332</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="526595000" />
+    <option name="totallyTimeSpent" value="848570000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
+    <frame x="0" y="24" width="1366" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cargo" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.49707174" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.49496403" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.49496403" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.505036" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37697843" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -984,18 +1030,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../simple-guzzle-client" />
     </ignored-roots>
-    <MESSAGE value="nonce check fixed" />
-    <MESSAGE value="filter removed from host" />
-    <MESSAGE value="validator fied" />
-    <MESSAGE value="login moved to provider" />
-    <MESSAGE value="created logic routes, moved stuff there" />
-    <MESSAGE value="home controller brought back" />
-    <MESSAGE value="exception added if token isn't present" />
-    <MESSAGE value="exceptions moved out" />
-    <MESSAGE value="form-params/json made flexible" />
-    <MESSAGE value="whitespaces removed" />
-    <MESSAGE value="typecasted to string" />
-    <MESSAGE value="dependency bumped&#10;changed made to request" />
     <MESSAGE value="dependency bumped" />
     <MESSAGE value="5.5 support added" />
     <MESSAGE value="hash verifier dependency bumped" />
@@ -1009,7 +1043,19 @@
     <MESSAGE value="product controller factory call fixed" />
     <MESSAGE value="factory fixed to hunt for singular module" />
     <MESSAGE value="token store changed to session" />
-    <option name="LAST_COMMIT_MESSAGE" value="token store changed to session" />
+    <MESSAGE value="nonce stores in session instead of db" />
+    <MESSAGE value="contracts changed to match storing in session instead of db&#10;updated with latest change" />
+    <MESSAGE value="dependency updated" />
+    <MESSAGE value="get stored nonce function added" />
+    <MESSAGE value="validator &amp; contract removed" />
+    <MESSAGE value="code changed for latest hash-verifier version" />
+    <MESSAGE value="user removed from authorisation url signature" />
+    <MESSAGE value="added provider to composer.json" />
+    <MESSAGE value="minor bug fix" />
+    <MESSAGE value="gate included in service provider" />
+    <MESSAGE value="user removed from call to nonce generation" />
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1018,388 +1064,327 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/dpc/hash-verifier/src/AuthValidatorContract.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="3420">
+          <caret line="190" column="40" lean-forward="false" selection-start-line="190" selection-start-column="40" selection-end-line="190" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dpc/hash-verifier/src/AuthValidator.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="1530">
+          <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/dpc/hash-verifier/src/HMacValidatorContract.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/config/shopify.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dpc/hash-verifier/config/validator.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="216">
+          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/config/validator.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-app/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Routing/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19638">
+          <caret line="1109" column="19" lean-forward="false" selection-start-line="1109" selection-start-column="19" selection-end-line="1109" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-app/app/Http/Controllers/Auth/LoginController.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Factory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/hash/hash.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/app/Http/Requests/StoreRecipeRequest.php" />
+    <entry file="file://$PROJECT_DIR$/src/Middleware/AuthGuard.php" />
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Providers/ShopifyAuthServiceProvider.php" />
+    <entry file="file://$PROJECT_DIR$/src/Providers/ShopifyAuthServiceProvider.php" />
+    <entry file="file://$PROJECT_DIR$/src/Providers/ShopifyUser.php" />
+    <entry file="file://$PROJECT_DIR$/src/Providers/ShopifyUserProvider.php" />
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dpc/hash-verifier/src/HMacValidator.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="1044">
+          <caret line="58" column="76" lean-forward="false" selection-start-line="58" selection-start-column="76" selection-end-line="58" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/dpc/guzzle-client/src/RequestClientContract.php">
+    <entry file="file://$PROJECT_DIR$/src/Contracts/TokenStoreContract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="234">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/dpc/guzzle-client/src/GuzzleClient.php">
+    <entry file="file://$PROJECT_DIR$/src/TokenStore.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        <state relative-caret-position="108">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/tests/Feature/ExampleTest.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="972">
+          <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../guzzle-client/config.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4068">
+          <caret line="237" column="19" lean-forward="false" selection-start-line="237" selection-start-column="19" selection-end-line="237" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Middleware/AuthGuard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dpc/sans-model-auth/src/SansModelUserProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dpc/sans-model-auth/src/AuthServiceContract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Middleware/ShopifyAuthorisation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exceptions/TokenNotReceivedException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sans-model-auth/src/SansModelAuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Contracts/TokenStoreContract.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/shopify.php">
+    <entry file="file://$PROJECT_DIR$/vendor/dpc/sans-model-auth/src/SansModelAuthServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="216">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/contracts/Cache/Store.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+        <state relative-caret-position="1134">
+          <caret line="75" column="14" lean-forward="false" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Contracts/Cache/Store.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="2934">
+          <caret line="168" column="37" lean-forward="false" selection-start-line="168" selection-start-column="37" selection-end-line="168" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/Auth.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="99" column="5" lean-forward="false" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
-          <folding>
-            <element signature="e#55#92#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="8640">
+          <caret line="488" column="20" lean-forward="false" selection-start-line="488" selection-start-column="20" selection-end-line="488" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Cache/CacheServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="40194">
+          <caret line="2247" column="20" lean-forward="false" selection-start-line="2247" selection-start-column="20" selection-end-line="2247" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/config/cache.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="954">
+          <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Authenticatable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/psy/psysh/test/Psy/Test/Formatter/DocblockFormatterTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dpc/sans-model-auth/src/EnvUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-402">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Providers/LaravelShopifyServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="11" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="38" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Providers/LaravelShopifyServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Providers/ShopifyUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShopifyUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4860">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Cache/FileStore.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2509">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Cache/MemcachedStore.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/support/Collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14508">
-          <caret line="817" column="20" lean-forward="false" selection-start-line="817" selection-start-column="20" selection-end-line="817" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Cache/ApcStore.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../guzzle-client/vendor/illuminate/contracts/Cache/Store.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../guzzle-client/vendor/illuminate/contracts/Session/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../guzzle-client/vendor/illuminate/support/Facades/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TokenStore.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#46#85#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Contracts/TokenStoreContract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShopifyFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../guzzle-client/src/RequestClientContract.php">
+    <entry file="file://$PROJECT_DIR$/../sans-model-auth/src/SansModelUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../guzzle-client/src/GuzzleClient.php">
+    <entry file="file://$PROJECT_DIR$/vendor/dpc/sans-model-auth/src/EnvGuard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="1746">
+          <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Middleware/ShopifyAuthorisation.php">
+    <entry file="file://$PROJECT_DIR$/../sans-model-auth/src/AuthServiceContract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/.env">
+    <entry file="file://$PROJECT_DIR$/src/Providers/ShopifyAuthService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="45" />
+        <state relative-caret-position="684">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" column="39" lean-forward="false" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+        <state relative-caret-position="288">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/app/Http/Controllers/ProductController.php">
+    <entry file="file://$PROJECT_DIR$/src/Contracts/AuthContract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="162">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+    <entry file="file://$PROJECT_DIR$/../example-app/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="919" column="13" lean-forward="false" selection-start-line="919" selection-start-column="13" selection-end-line="919" selection-end-column="13" />
+        <state relative-caret-position="594">
+          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/symfony/routing/Tests/Generator/UrlGeneratorTest.php">
+    <entry file="file://$PROJECT_DIR$/src/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="990">
+          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RequestFactory.php">
+    <entry file="file://$PROJECT_DIR$/../sans-model-auth/src/SansModelGuard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/symfony/routing/Generator/UrlGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="138" column="5" lean-forward="true" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/RequestFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Modules/BaseModule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/BaseModule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="73" column="3" lean-forward="true" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-app/vendor/theme-anorak/laravel-shopify/src/Modules/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/Image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/Metafield.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/Variant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/RelationHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="18">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding />
         </state>
       </provider>

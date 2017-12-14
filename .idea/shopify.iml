@@ -11,7 +11,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="example-app" />
-    <orderEntry type="module" module-name="hash-verifier" />
-    <orderEntry type="module" module-name="guzzle-client" />
+    <orderEntry type="module" module-name="sans-model-auth" />
   </component>
 </module>
