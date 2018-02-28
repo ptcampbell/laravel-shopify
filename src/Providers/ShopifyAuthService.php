@@ -13,6 +13,8 @@ class ShopifyAuthService implements AuthServiceContract
     protected $store;
 
     protected $auth;
+    
+    protected $user;
 
     /**
      * ShopifyAuthService constructor.
@@ -34,6 +36,7 @@ class ShopifyAuthService implements AuthServiceContract
 
     public function setUser(): void
     {
+        $this->user = new ShopifyUser($this->store->get());
     }
 
     public function checkCredentials($credentials): bool
