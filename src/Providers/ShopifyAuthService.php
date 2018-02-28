@@ -13,6 +13,8 @@ class ShopifyAuthService implements AuthServiceContract
     protected $store;
 
     protected $auth;
+    
+    protected $user;
 
     /**
      * ShopifyAuthService constructor.
